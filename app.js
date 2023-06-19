@@ -1,4 +1,4 @@
-//JavaScript Decralation
+//JavaScript Decralation block
 
 const fname = document.getElementById('fname');
 const sname = document.getElementById('sname');
