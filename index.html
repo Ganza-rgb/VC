@@ -3,19 +3,22 @@
 <head>
 	<title>Student registration form</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
 	<div id="container">
 
-		<h1>Student Registration Form</h1>
+		<h1 id="h1">Student Registration Form</h1>
+
+		<h2 id="demo"></h2>
 		
-		<form>
+		<form id="form">
 			
 			<div id="names">
 				
-			<label for="lname">First name :</label>
+			<label for="fname">First name :</label>
 
-			<input type="text" id="lname" placeholder="Your First Name" required="">
+			<input type="text" id="fname" placeholder="Your First Name" required="" value="">
 
 			
 
@@ -25,7 +28,7 @@
 				
 			<label for="sname">Second name :</label>
 
-			<input type="text" id="sname" placeholder="Your Second Name" required="">
+			<input type="text" id="sname" placeholder="Your Second Name" required="" value="">
 
 			</div>
 
@@ -33,7 +36,7 @@
 				
 				<label for="pass">Password :</label>
 
-			    <input type="password" id="pass" placeholder="Your password" required="">
+			    <input type="password" id="pass" placeholder="Your password" required="" value="">
 
 			</div>
 
@@ -61,7 +64,7 @@
 
 			</div>
 
-			<button>Submit Form</button>
+			<button onclick="welcome()">Submit Form</button>
 
 		</form>
 
